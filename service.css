@@ -1,0 +1,392 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.parent{
+    height: 690px;
+    /* background-color: cadetblue; */
+    background-color: rgb(226, 226, 226);
+    }
+    .header{
+       position: fixed;
+       width: 100%;
+       height: 50px;
+       background-color: rgb(226, 226, 226);
+    display: flex;
+    justify-content: space-around;
+    padding: 10px  0px;
+    }
+        
+        ul{
+        
+        display: flex;
+        
+        }
+        ul li{
+        
+        padding-top: 14px;
+        list-style: none;
+        }
+        ul  .abuu  {
+            color: yellow;
+        }
+
+      
+
+        ul li a{
+        text-decoration: none;
+        font-size: 23px;
+        padding: 12px;
+        color: rgb(29, 28, 28);
+        }
+        ul li a:hover{
+        
+            color:yellow;
+        }
+        .header h1{
+           
+        color: rgb(0, 0, 0);
+        font-size: 40px;
+       margin-left: -10%;
+        }
+      ul i{
+        padding-left: 23px;
+      }
+    
+    .part1{
+        display: flex;
+      padding-top: 6%; 
+    }
+    .text{
+        padding: 0px 5%;
+        margin-top: 8%;
+        color: rgb(53, 51, 51);
+        font-family: sans-serif;
+       margin-left: 12px;
+    }
+    .text h1{
+        font-size: 44px;
+    }
+    .text p{
+        color:rgb(27, 78, 61);
+        padding-top: 12px;
+    }
+    .sofa .sof{
+    
+        margin-top: 5%;
+        margin-right: 6%;
+        width: 700px;
+     
+    }
+    
+    .dot{
+        margin-left: 55%;
+        margin-top: 12%;
+
+    }
+
+    .text .kit{
+            height: 50px;
+            width: 220px;
+            color: rgb(7, 7, 7) ;
+            font-size: 18px;
+            border-radius: 6px ;
+            border: none;
+           border: 3px solid grey;
+           background-color: rgb(226, 226, 226);
+            margin-top: 12px;
+            margin-left: 12px;
+           
+    }
+
+            .mid2{
+                display: grid;
+                grid-template-columns: 200px 200px 200px 200px;
+            
+                gap: 6%;
+              padding-left: 20%;
+              padding-top: 5%;
+            }
+            .mid2 img{
+                width: 250px;
+               border-radius: 12px;
+                height: 250px;
+                box-shadow: 6px 6px 9px 4px gray;
+                
+            }
+
+            .mid3{
+                display: grid;
+                grid-template-columns: 200px 200px 200px 200px;
+            
+                gap: 10%;
+              margin-left: 37%;
+              padding-top: 2%;
+            }
+            .mid3 img{
+                width: 250px;
+               border-radius: 12px;
+                height: 250px;
+                box-shadow: 6px 6px 9px 4px gray;
+            }
+
+            
+            .mid4{
+                display: grid;
+                grid-template-columns: 200px 200px 200px 200px;
+            
+                gap: 6%;
+                padding-left: 20%;
+              padding-top: 5%;
+              margin-top: 16%;
+            }
+            .mid4 img{
+                width: 250px;
+               border-radius: 12px;
+                height: 250px;
+                box-shadow: 6px 6px 9px 4px gray;
+                
+            }
+
+            .cat img{
+                width: 300px ;
+                border-radius: 12px;
+                margin-top:4%;
+                
+            }
+            .cat{
+                display: flex;
+                margin-left: 6%;
+                gap: 15px;
+            }
+
+        .kit1{
+
+            height: 50px;
+            width: 220px;
+            color: rgb(7, 7, 7) ;
+            font-size: 18px;
+            border-radius: 6px ;
+            border: none;
+          
+           background-color: rgb(5, 95, 76);
+            margin-top: 12px;
+            margin-left: 12px;}
+
+            .sofa .dot{
+                margin-top: -4%;
+                margin-left: 64%;
+                width: 300px;
+            }
+
+
+
+            .mid8{
+                display: flex;
+         margin-top: 15%;
+              gap: 4%;
+              margin-left: 8%;
+              text-align: center;
+             }
+             .qor button{
+                margin-top: 3%;
+                height: 50px;
+                  width: 220px;
+                  color: rgb(17, 14, 14) ;
+                  font-size: 18px;
+                  border-radius: 10px ;
+                  border: none;
+                 border: 3px solid grey;
+                 background-color: rgb(255, 255, 255);
+              
+            }
+            p i{
+                color: orange;
+            }
+.mid8 img{
+    margin-left: 6%;
+    animation: dhaqaji 3s  infinite;
+}
+.qor h4 i{
+    color: rgb(3, 68, 47);
+    margin-top: 6%;
+}
+.fo5 h1{
+    font-size: 26px;
+}
+.fo5 button
+{
+    width: 200px;
+    height: 30px;
+    margin-top: 4%;
+    border-radius: 12px;
+border: 2px solid black;
+background-color: rgb(162, 175, 172);
+padding-right: 6%;
+margin-left: 6%;
+}
+.fo5 button i{
+   margin-left: 62%;
+}
+.footer5{
+
+    height: 200px;
+    background-color: rgb(162, 175, 172);
+    justify-content: space-between;
+    
+}
+
+.foo{
+    display: grid;
+    grid-template-columns: 300px 300px  300px 300px 300px ;
+    gap:12px;
+  margin-left: 12%;
+    margin-top: 3%;
+    padding-top: 18px;
+
+}
+
+.fo h3{
+    text-align: justify;
+    color: rgb(35, 33, 33);
+    font-size: 25px;
+}
+.fo i{
+    color: rgb(26, 25, 25);
+    font-size: 22px;
+}
+.fo .fa2{
+    color: rgb(12, 12, 12);
+    font-size: 20px;
+}
+.fa3 i{
+    color: rgb(75, 71, 71);
+    font-size: 14px;
+padding: 2px;
+
+}
+
+.fo h4{
+    text-align: justify;
+    font-weight: lighter;
+    line-height: 20px;
+   margin-top: 8px;
+   color: rgb(98, 91, 91);
+   
+}
+.fo{
+    margin-top: 12px;
+}
+.footer5 p{
+    margin-left: 12%;
+    margin-top: 5%;
+}
+@keyframes dhaqaji {
+      
+    50% {
+      margin-right: -10%;
+    }
+    20% {
+        margin-left: -10%;
+    
+    }}
+
+    @media screen and (max-width: 600px){
+
+
+
+        .header{
+            padding: 12%;
+            display: flex;
+            flex-direction: column;
+        }
+.part1{
+    display: flex;
+    flex-direction: column;
+}
+.parent{
+    height:1099px;
+}
+.sofa .sof{
+    width: 500px;
+}
+
+
+
+.mid2{
+    display: grid;
+    grid-template-columns: 300px ;
+}
+.mid3{
+    margin-top: 46%;
+    display: grid;
+    grid-template-columns: 300px ;
+}
+.mid5{
+    display: grid;
+    grid-template-columns: 300px ;
+    display: none;
+}
+.mid6{
+    margin-top: 28%;
+    margin-left: 20%;
+}
+.mid7{
+    display: none;
+}
+
+
+  .mid4 img{
+    width: 500px;
+}
+
+.foo{
+    display: grid;
+    grid-template-columns: 300px 300px;
+}
+.cat {
+    display: flex;
+    flex-direction: column;
+    margin-top: 48%;
+}
+
+.mid3{
+    margin-top: 6%;
+display: flex;
+flex-direction: column;
+display: none;
+}
+.sofa .sof{
+    margin-top:6%;
+}
+.mid4{
+    display: grid;
+    grid-template-columns: 200px;
+    margin-bottom: 12%;
+}
+.mid4 img{
+    width: 200px;
+
+}
+.text h1{ 
+    margin-top: 57%;
+}
+.sofa .dot{
+    margin-left: -12px;
+    margin-left: 52%;
+    width: 200px;
+}
+
+.qor{
+display: none;
+}
+
+    }
+
+    .header a .abuu{
+        color: yellow;
+    }

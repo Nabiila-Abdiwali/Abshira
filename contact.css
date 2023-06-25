@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.parent{
+    height: 650px;
+    /* background-color: cadetblue; */
+   
+     background-color: rgb(226, 226, 226);
+    }
+    .header{
+       position: fixed;
+       width: 100%;
+       height: 50px;
+       background-color: rgb(226, 226, 226);
+    
+    display: flex;
+    justify-content: space-around;
+    padding: 10px  0px;
+    }
+        
+        ul{
+        
+        display: flex;
+        
+        }
+        ul li{
+        
+        padding-top: 14px;
+        list-style: none;
+        }
+        ul  .abuu {
+            color: yellow;
+        }
+        .header a .abuu{
+            color: yellow;
+        }
+        ul li a{
+        text-decoration: none;
+        font-size: 23px;
+        padding: 12px;
+        color: rgb(8, 8, 8);
+        }
+    
+       
+        ul li a:hover{
+        
+            color:yellow;
+        }
+        .header h1{
+           
+        color: rgb(19, 18, 18);
+        font-size: 40px;
+       margin-left: -10%;
+        }
+      ul i{
+        padding-left: 23px;
+      }
+    
+    .part1{
+        display: flex;
+      padding-top: 6%; 
+    }
+    .text{
+        padding: 0px 8%;
+        margin-top: 8%;
+        color: rgb(0, 0, 0);
+        font-family: sans-serif;
+
+    }
+    .text h1{
+        font-size: 44px;
+        color: black;
+    }
+    .text p{
+        color: rgb(16, 17, 17);
+        padding-top: 12px;
+    }
+    .sofa .sof{
+        width: 650px;
+        margin-top: -32%;
+        margin-left: 12%;
+    }
+    .dot{
+        margin-left: 55%;
+        margin-top: 12%;
+    }
+    .text button{
+            height: 50px;
+            width: 120px;
+            color: white ;
+            font-size: 15px;
+            border-radius: 26px;
+            border: none;
+            background-color: rgb(214, 211, 4);
+            margin-top: 25px;
+          
+    }
+
+     .peace{
+        animation: leexi 3s  infinite;
+    }
+
+
+    .text .kit{
+            height: 50px;
+            width: 120px;
+            color: white ;
+            font-size: 18px;
+            border-radius: 26px ;
+            border: none;
+           border: 3px solid grey;
+           background-color: rgb(27, 78, 61);
+            margin-top: 12px;
+            margin-left: 12px;
+          
+    }
+
+
+
+
+
+
+
+
+   
+     
+     input {
+        width: 387px;
+        height: 30px;
+        padding: 6px;
+        margin-top: 12px;
+        border: 2px solid rgb(170, 170, 170);
+        border-radius: 6px;
+        }
+        label{
+            margin-top: 12%;
+        }
+        .for h1{
+            color: rgb(5, 5, 88);
+            margin-top: 10%;
+            font-size: 43px;
+            font-family: sans-serif;
+            outline-color: rgba(158, 154, 154, 0.836);
+        }
+        .for button{
+            
+        height: 50px;
+        width: 150px;
+        color: white ;
+        font-size: 15px;
+        border: none;
+        border-radius: 12px;
+        background-color: rgb(10, 2, 77);
+        margin-top: 16%;
+        margin-left: 62%;
+       
+        }
+       .for button:hover{
+            background: linear-gradient(rgb(255, 174, 0),cyan);
+        }
+
+
+
+
+
+
+
+        .mid{
+            display: flex;
+            margin-top: 12%;
+            margin-left: -3%;
+        }
+
+
+
+        .sofa .soft{
+            width: 680px;
+            margin-top: -22%;
+            margin-left: 12%;
+        }
+
+        .last img{
+            margin-top: 30%;
+            margin-left: 40%;
+            width: 200PX;
+            height: 200px;
+            margin-bottom: 5%;
+            border-radius: 12px;
+        }
+
+
+        @media screen and (max-width: 600px){
+
+
+
+            .header{
+                padding: 12%;
+                display: flex;
+                flex-direction: column;
+                background: rgba(255, 255, 255, 0.1);
+            }
+    .part1{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .sofa .dot{
+       margin-top: 34%;
+
+    }
+    .parent{
+        height:990px;
+    }
+    .sofa .sof{
+        width: 500px;
+        margin-top: 22%;
+        margin-top: -12%;
+    
+        
+    }
+    
+    
+    
+    .mid{
+        display: grid;
+        grid-template-columns: 300px ;
+       margin-top: 12%;
+
+    }
+    .last img{
+        margin-top: 187%;
+    }
+   .for{
+    margin-left: 20%;
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+    @keyframes leexi {
+      
+        50% {
+          transform: rotate(-25deg);
+        }
+        20% {
+          transform: rotateZ(10deg);
+        
+        }
+    }
